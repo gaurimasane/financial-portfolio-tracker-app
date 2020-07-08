@@ -18,9 +18,8 @@ h2{
         grid-gap:1rem;
         list-style-type: none;
     }
-    
-    .StockButton
-    {
+ /*   
+    .StockButton    {
         height: 2.5rem;
         width:6rem;
         border-radius: 5px;
@@ -34,7 +33,7 @@ h2{
             color: aliceblue;
             
 
-        }
+        }*/
     .companyText{
        margin-left: 0.6rem;
        font-family: 'Lucida Sans';
