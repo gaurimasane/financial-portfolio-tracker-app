@@ -37,7 +37,7 @@ class Addstocks extends Component {
              const {symbol,name}= item;//Destructuring
                 return(
                 <li key={symbol}>
-                    <button className="" type="button" onClick={()=>this.props.addStockHandler(index)} >{symbol}</button>
+                    <button className="StockButton" type="button" onClick={()=>this.props.addStockHandler(index)} >{symbol}</button>
                     <span className="companyText">{name}</span>
                 </li>
                 )
