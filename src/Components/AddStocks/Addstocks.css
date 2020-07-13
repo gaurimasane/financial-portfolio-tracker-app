@@ -18,7 +18,7 @@ h2{
         grid-gap:1rem;
         list-style-type: none;
     }
- 
+ /*
     .StockButton    {
         height: 2.5rem;
         width:6rem;
@@ -35,7 +35,7 @@ h2{
 
 
         }
-        
+        */
     .companyText{
        margin-left: 0.6rem;
        font-family: 'Lucida Sans';
