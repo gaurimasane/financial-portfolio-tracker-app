@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿# Finance Portfolio Tracker
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+A React WebAPP for tracking your financial portfolio, using the Alpha Advantage API and showing the profit and loss for a particular time of a day.
+Using Firebase Firestore as a Database to store the user data for tracking the stocks they want.
 
-### `npm start`
+[Live Preview](https://financial-portfolio-tracker.firebaseapp.com/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](tracker.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Built With
 
-### `npm test`
+<ul>
+<li> Create React APP </li>
+<li> SASS </li>
+<li> Firebase Firestore DB </li>
+</ul>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development
+--------------
 
-### `npm run build`
+Clone the repo and cd into the folder where the repo has been cloned, run ```npm install``` to install all the dependencies
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Usage
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Get a free API Key at https://www.alphavantage.co
+1. Create a ```.env``` file on the root folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Sample ENV file
 
-### `npm run eject`
+```env
+REACT_APP_APIKEY=yourapikey
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once the dependencies are installed, you can run ```npm start``` to start the application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+App will be live at localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Shubham Battoo**
 
-## Learn More
+* Twitter: [@Shubham_batt](https://twitter.com/Shubham_batt)
+* Github: [@shubhambattoo](https://github.com/shubhambattoo)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Give a ⭐️ if this project helped you!
